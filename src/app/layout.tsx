@@ -18,9 +18,9 @@ const body = Barlow({
 });
 
 export const metadata: Metadata = {
-  title: "Company Name | Truck Center — Arizona",
+  title: "IQ Truck Center | Sales, Service & Parts — Arizona",
   description:
-    "Lorem ipsum dolor sit amet. Placeholder site for an Arizona commercial truck center — sales, service, and parts.",
+    "IQ Truck Center in Arizona — commercial truck sales, diesel service, parts, and tire repairs.",
 };
 
 export default function RootLayout({

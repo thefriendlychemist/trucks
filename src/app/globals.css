@@ -5,32 +5,37 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  --navy: #0c2340;
-  --navy-mid: #16365c;
-  --red: #c8102e;
-  --red-hot: #e01838;
-  --steel: #5a6b7d;
-  --mist: #f2f5f8;
-  --line: #d7dee6;
+  --ink: #0a0a0a;
+  --ink-mid: #1a1a1a;
+  --amber: #f5b800;
+  --amber-hot: #ffc933;
+  --steel: #5c5c5c;
+  --mist: #f4f4f4;
+  --line: #e0e0e0;
   --white: #ffffff;
-  --background: oklch(1 0 0);
-  --foreground: #0c2340;
-  --card: oklch(1 0 0);
-  --card-foreground: #0c2340;
-  --popover: oklch(1 0 0);
-  --popover-foreground: #0c2340;
-  --primary: #0c2340;
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
+  /* aliases used across components */
+  --navy: var(--ink);
+  --navy-mid: var(--ink-mid);
+  --red: var(--amber);
+  --red-hot: var(--amber-hot);
+  --background: #ffffff;
+  --foreground: #0a0a0a;
+  --card: #ffffff;
+  --card-foreground: #0a0a0a;
+  --popover: #ffffff;
+  --popover-foreground: #0a0a0a;
+  --primary: #f5b800;
+  --primary-foreground: #0a0a0a;
+  --secondary: #f4f4f4;
+  --secondary-foreground: #0a0a0a;
+  --muted: #f4f4f4;
+  --muted-foreground: #5c5c5c;
+  --accent: #f5b800;
+  --accent-foreground: #0a0a0a;
   --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
+  --border: #e0e0e0;
+  --input: #e0e0e0;
+  --ring: #f5b800;
   --chart-1: oklch(0.87 0 0);
   --chart-2: oklch(0.556 0 0);
   --chart-3: oklch(0.439 0 0);
@@ -54,6 +59,10 @@
   --color-navy-mid: var(--navy-mid);
   --color-red: var(--red);
   --color-red-hot: var(--red-hot);
+  --color-ink: var(--ink);
+  --color-ink-mid: var(--ink-mid);
+  --color-amber: var(--amber);
+  --color-amber-hot: var(--amber-hot);
   --color-steel: var(--steel);
   --color-mist: var(--mist);
   --color-line: var(--line);
@@ -108,7 +117,7 @@ body {
 }
 
 ::selection {
-  background: color-mix(in srgb, var(--red) 28%, transparent);
+  background: color-mix(in srgb, var(--amber) 35%, transparent);
 }
 
 @keyframes fade-up {

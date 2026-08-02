@@ -1,5 +1,6 @@
 import { Hero } from "@/components/Hero";
 import { Location } from "@/components/Location";
+import { PartsAndService } from "@/components/PartsAndService";
 import { Services } from "@/components/Services";
 import { SiteFooter } from "@/components/SiteFooter";
 import { SiteHeader } from "@/components/SiteHeader";
@@ -13,6 +14,7 @@ export default function Home() {
         <Hero />
         <WhyUs />
         <Services />
+        <PartsAndService />
         <Location />
       </main>
       <SiteFooter />

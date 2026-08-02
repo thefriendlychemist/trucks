@@ -11,7 +11,7 @@ export function Location() {
   }
 
   return (
-    <section id="location" className="bg-navy py-16 text-white md:py-20">
+    <section id="location" className="bg-ink py-16 text-white md:py-20">
       <div className="mx-auto grid max-w-6xl gap-12 px-5 md:grid-cols-2 md:px-8">
         <div>
           <h2 className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight uppercase md:text-5xl">
@@ -28,7 +28,7 @@ export function Location() {
             <p className="mt-4">
               <a
                 href="tel:+10000000000"
-                className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide transition-colors hover:text-red-hot"
+                className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide transition-colors hover:text-amber"
               >
                 (000) 000-0000
               </a>
@@ -59,7 +59,7 @@ export function Location() {
           </ul>
         </div>
 
-        <div className="bg-white p-6 text-navy md:p-8">
+        <div className="bg-white p-6 text-ink md:p-8">
           {submitted ? (
             <div className="flex min-h-[280px] flex-col justify-center">
               <p className="font-[family-name:var(--font-display)] text-3xl font-bold uppercase">
@@ -80,7 +80,7 @@ export function Location() {
                 <input
                   required
                   name="name"
-                  className="mt-1.5 w-full border border-line px-3 py-3 text-sm outline-none focus:border-navy"
+                  className="mt-1.5 w-full border border-line px-3 py-3 text-sm outline-none focus:border-ink"
                 />
               </label>
               <label className="block text-xs font-bold tracking-wide text-steel uppercase">
@@ -89,7 +89,7 @@ export function Location() {
                   required
                   name="phone"
                   type="tel"
-                  className="mt-1.5 w-full border border-line px-3 py-3 text-sm outline-none focus:border-navy"
+                  className="mt-1.5 w-full border border-line px-3 py-3 text-sm outline-none focus:border-ink"
                 />
               </label>
               <label className="block text-xs font-bold tracking-wide text-steel uppercase">
@@ -98,12 +98,12 @@ export function Location() {
                   required
                   name="message"
                   rows={4}
-                  className="mt-1.5 w-full resize-y border border-line px-3 py-3 text-sm outline-none focus:border-navy"
+                  className="mt-1.5 w-full resize-y border border-line px-3 py-3 text-sm outline-none focus:border-ink"
                 />
               </label>
               <button
                 type="submit"
-                className="bg-red px-6 py-3 text-sm font-bold tracking-wide text-white uppercase transition-colors hover:bg-red-hot"
+                className="bg-amber px-6 py-3 text-sm font-bold tracking-wide text-ink uppercase transition-colors hover:bg-amber-hot"
               >
                 Send
               </button>

@@ -21,7 +21,7 @@ export function WhyUs() {
   return (
     <section id="why" className="bg-white py-16 md:py-20">
       <div className="mx-auto max-w-6xl px-5 md:px-8">
-        <h2 className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight text-navy uppercase md:text-5xl">
+        <h2 className="font-[family-name:var(--font-display)] text-4xl font-bold tracking-tight text-ink uppercase md:text-5xl">
           Why choose us?
         </h2>
         <p className="mt-3 max-w-2xl text-steel">
@@ -31,8 +31,8 @@ export function WhyUs() {
 
         <ul className="mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-4">
           {reasons.map((reason) => (
-            <li key={reason.title} className="border-t-2 border-red pt-5">
-              <h3 className="font-[family-name:var(--font-display)] text-xl font-bold tracking-wide text-navy uppercase">
+            <li key={reason.title} className="border-t-2 border-amber pt-5">
+              <h3 className="font-[family-name:var(--font-display)] text-xl font-bold tracking-wide text-ink uppercase">
                 {reason.title}
               </h3>
               <p className="mt-3 text-sm leading-relaxed text-steel">

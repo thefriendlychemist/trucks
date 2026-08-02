@@ -90,7 +90,7 @@ export function Hero() {
     tabs.find((tab) => tab.id === activeTab)?.copy ?? tabs[0].copy;
 
   return (
-    <section className="relative isolate overflow-hidden bg-navy">
+    <section className="relative isolate overflow-hidden bg-ink">
       <div className="absolute inset-0 -z-10" aria-hidden>
         {slides.map((slide, i) => (
           <Image
@@ -106,7 +106,7 @@ export function Hero() {
             )}
           />
         ))}
-        <div className="absolute inset-0 bg-navy/55" />
+        <div className="absolute inset-0 bg-ink/60" />
       </div>
 
       <div className="relative z-10 mx-auto flex min-h-[85vh] max-w-6xl flex-col justify-between px-5 pt-16 pb-10 md:min-h-[90vh] md:px-8 md:pt-24 md:pb-14">
@@ -159,7 +159,7 @@ export function Hero() {
                     <TabsTrigger
                       key={tab.id}
                       value={tab.id}
-                      className="rounded-none px-3 py-3.5 text-sm font-semibold text-steel after:bg-navy data-active:text-navy md:px-4 md:text-base"
+                      className="rounded-none px-3 py-3.5 text-sm font-semibold text-steel after:bg-amber data-active:text-ink md:px-4 md:text-base"
                     >
                       {tab.label}
                     </TabsTrigger>
