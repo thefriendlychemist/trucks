@@ -67,7 +67,7 @@ export function PartsAndService() {
               Schedule tire service
             </a>
             <a
-              href="tel:+10000000000"
+              href="tel:+1(888)879-5814"
               className="border border-ink px-6 py-3 text-sm font-bold tracking-wide text-ink uppercase transition-colors hover:bg-mist"
             >
               Call the shop
