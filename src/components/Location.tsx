@@ -30,7 +30,7 @@ export function Location() {
                 href="tel:+10000000000"
                 className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide transition-colors hover:text-amber"
               >
-                (000) 000-0000
+                1(888)879-5814
               </a>
             </p>
             <p className="mt-2">
