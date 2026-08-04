@@ -41,7 +41,7 @@ export function SiteHeader() {
             href="tel:1(888)879-5814"
             className="bg-amber px-4 py-2 text-ink transition-colors hover:bg-amber-hot"
           >
-            (000) 000-0000
+            1 (888) 879-5814
           </a>
         </nav>
         <a
