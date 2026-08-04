@@ -45,7 +45,7 @@ export function Location() {
 
           <ul className="mt-8 space-y-2 text-sm text-white/70">
             <li className="flex max-w-xs justify-between gap-6">
-              <span>Sunday - Saturday</span>
+              <span>Everyday</span>
               <span className="text-white">9:00 AM – 7:00 PM</span>
             </li>
           </ul>
