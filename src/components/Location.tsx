@@ -27,10 +27,10 @@ export function Location() {
             <p>City, AZ 00000</p>
             <p className="mt-4">
               <a
-                href="tel:+10000000000"
+                href="tel:1 (888) 879-5814"
                 className="font-[family-name:var(--font-display)] text-3xl font-bold tracking-wide transition-colors hover:text-amber"
               >
-                1(888)879-5814
+                1 (888) 879-5814
               </a>
             </p>
             <p className="mt-2">
