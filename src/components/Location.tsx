@@ -23,8 +23,8 @@ export function Location() {
           </p>
 
           <address className="mt-8 not-italic text-white/90">
-            <p className="font-semibold">123 Street Name</p>
-            <p>City, AZ 00000</p>
+            <p className="font-semibold">3750 W Indian School Rd</p>
+            <p>Phoeniz, AZ 85019</p>
             <p className="mt-4">
               <a
                 href="tel:1 (888) 879-5814"
